@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, legend, .button{
+    font-family: "Staatliches", sans-serif;
+}
+
+body {
+background: whitesmoke;
+}
+
+body::before {
+content: "";
+width: 100%;
+height: 436px;
+
+position: absolute;
+top: 0;
+z-index: -1;
+background: #535971;
+}
+
+
+.page {
+    margin: auto;
+    
+    width: 750px;
+    height: 1000px;
+
+    font-family: "Poppins", sans-serif;
+    color: #4E4958;
+}
+
+.page span {
+    color: #C1BCCC
+}
+
+header {
+    margin-top: 150px;
+}
+
+header h1 {
+    color: white;
+
+    margin-bottom: 35px;
+
+    font-size: 50px;
+    font-weight: 300;
+}
+
+header p {
+    color: white;
+
+    margin-bottom: 35px;
+
+    font-size: 20px;
+}
+
+form {
+background: white;
+
+padding: 55px;
+
+border-radius: 25px 25px 0 0;
+
+}
+
+form h1 {
+    color: #535971;
+}
+
+form fieldset {
+    border: none;
+
+    margin-bottom: 40px;
+}
+
+form .fieldset-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form .input-wrapper {  
+    display: flex;
+    flex-direction: column;
+}
+
+form fieldset legend {
+    font-size : 25px;
+
+    padding-bottom: 20px;
+
+    border-bottom: 1px solid #E6E6F0;
+
+    margin-bottom: 40px;
+}
+
+form fieldset h2 {
+    margin-bottom: 20px;
+
+    font-weight: 200;
+}
+
+footer {
+    height: 160px;
+    padding: 50px 70px;
+    background: #535971;
+
+    border-radius: 0 0 20px 20px
+}
+
+footer .button {
+    width: 600px;
+    height: 55px;
+
+    color: white;
+
+    line-height: 25px;
+    font-size: 20px;
+
+    border: none;
+    border-radius: 30px;
+    background: #FF5374;
+}
